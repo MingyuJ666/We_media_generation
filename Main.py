@@ -7,20 +7,20 @@ from extractor import get_keyword
 from ask_llm import ask_gpt
 import argparse
 
-path_driver = '/Users/jin666/Desktop/jmy_generate/gpt-test/chromedriver_mac_arm64/chromedriver'  # diver
-username = "18201768019"
-password = "chat8app"
+path_driver = 'gpt-test/chromedriver_mac_arm64/chromedriver'  # diver
+username = "111"
+password = "111"
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--target_size', type=tuple, default='(256,256)', help='The input image size.')
 parser.add_argument('--folder_path', type=str, default='/Users/jin666/Desktop/jmy_generate/input', help='The folder path.')
 parser.add_argument('--path_driver', type=str, default='/Users/jin666/Desktop/jmy_generate/gpt-test/chromedriver_mac_arm64/chromedriver', help='11')
-parser.add_argument('--username', type=str, default='18201768019', help='username.')
-parser.add_argument('--password', type=str, default='chat8app', help='password.')
+parser.add_argument('--username', type=str, default='111', help='username.')
+parser.add_argument('--password', type=str, default='111', help='password.')
 opt = parser.parse_args()
 
 target_size = (256, 256)
-folder_path = '/Users/jin666/Desktop/jmy_generate/input'
+folder_path = '.../input'
 
 class ImageFolderDataset(Dataset):
     def __init__(self, folder_path, transform=None):

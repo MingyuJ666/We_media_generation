@@ -72,9 +72,9 @@ def ask_gpt(path,username,password,questions):
 
 
 if __name__ == '__main__':
-    path_driver = '/Users/jin666/Desktop/jmy_generate/gpt-test/chromedriver_mac_arm64/chromedriver'  # diver
-    username = "18201768019"
-    password = "chat8app"
+    path_driver = '.../gpt-test/chromedriver_mac_arm64/chromedriver'  # diver
+    username = "111"
+    password = "111"
     question = ['tea','drink','student']
     o = ask_gpt(path_driver,username,password,question)
     print(o)

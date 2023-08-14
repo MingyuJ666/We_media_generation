@@ -22,8 +22,9 @@
 
 The new bert will be updating soon
 
+**Attention**
 
-
+I use a program I that designed to enter a fake chatgpt to achive call LLM
 
 **Validation**
 
