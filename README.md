@@ -9,7 +9,7 @@
 
 
 ## Frame
-<img src="workflow.PNG" width="1200px" height="430px"/>
+<img src="workflow.PNG" width="1200px" height="500px"/>
 
 **Data**
 
@@ -24,7 +24,7 @@ The new bert will be updating soon
 
 **Attention**
 
-I use a program I that designed to enter a fake chatgpt to achive call LLM
+I use a program I that designed(Accessing Mirror Sites with Crawlers) to enter a fake chatgpt to achive call LLM
 
 **Validation**
 
@@ -33,6 +33,6 @@ In image caption, we use clip to compute a similarity between image and word to 
 
 **Examples**
 
-<img src="grid_image.jpg" width="250px" height="250px"/>
+<img src="grid_image.jpg" width="300px" height="300px"/>
 
 Sentence: we will approve this soon
