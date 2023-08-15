@@ -6,7 +6,7 @@
 - Pytorch 2.01
 - opencv-python 4.8.0.76 
 - spacy  3.6.1 
-- 
+- I design it through MACOS
 
 
 ## Frame
