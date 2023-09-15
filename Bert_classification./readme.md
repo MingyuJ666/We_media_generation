@@ -19,5 +19,5 @@ Due to some pravicy issues, we can not publish the dataset, but if you are profi
 The training set, validation set and test set were randomly divided according to 80:10:10.
 Before run the train.py, change the line 111 to change the dataset address to yours, you can DIY the number of epoch, learning rate to suit your dataset.
 
-## 
+## Performance
 The accuracy rate of the model on the validation set is 98.5%.
