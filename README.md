@@ -1,4 +1,4 @@
-# self-media-generation
+# Self-Media-Generation
 
 ## Dependencies
 * python 3.8
