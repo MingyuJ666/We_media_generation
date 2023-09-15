@@ -15,6 +15,14 @@ Due to some pravicy issues, we can not publish the dataset, but if you are profi
 |business|...|
 |...|...|
 
+## Dependency
+* pytorch = 2.0.1
+* tqdm = 4.66.1
+* pandas = 2.0.3
+* transformers = 4.31.0
+* numpy = 1.24.4
+
+
 ## Training
 1. Download the pre-trained bert model and put them on  ./bert-base-cased, the model is available on <https://huggingface.co/bert-base-cased/tree/main> , download the pytorch_model.bin,tokenizer.json, vocab.txt.
 2.The training set, validation set and test set were randomly divided according to 80:10:10.
