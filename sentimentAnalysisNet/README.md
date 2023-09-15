@@ -19,10 +19,13 @@ The dataset consists of tweets with sentiment labels. Half of the dataset contai
 
 
 ## Requirements
-Tensorflow==2.4.0 <br>
-python==3.8 <br>
-numpy <br>
-scikit-learn <br>
-scipy <br>
-nltk <br>
-keras
+* Tensorflow==2.4.0 <br>
+* python==3.8 <br>
+* numpy <br>
+* scikit-learn <br>
+* scipy <br>
+* nltk <br>
+* keras
+
+## Performance
+The accuracy and F1 score on the sentiment analysis task reached 0.903 and 0.770 respectively.
