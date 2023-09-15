@@ -1,23 +1,21 @@
-# We_media generator
-
+# Self-Media-Generation
 
 ## Dependencies
-- python 3.8
-- Pytorch 2.01
-- opencv-python 4.8.0.76 
-- spacy  3.6.1 
-- I design it through MACOS
+* python 3.8
+* pytorch 2.01
+* opencv-python 4.8.0.76
+* spack 3.6.1
+
+## Workflow 
 
 
-## Frame
-<img src="workflow.PNG" width="1200px" height="500px"/>
+**How to run:** 
+1. Select 4 or 9 portrait photos you like.
+2. Run the Main.py
+3. You will get the processed photo like the third photo in the workflow and the vivid text with emoji😀.
+4. Feel free to upload the content to Twitter or any social media platform.
+![workflow2](https://github.com/tiuxuxsh76075/We_media_generation/assets/131826080/00a7acc7-687f-401d-a199-03a571409e60)
 
-**Data**
-
-1. Select some photo and put them in input file
-2. Run Main.py
-3. Get the photo in output file
-4. The girl in the workflow is my beautiful son
 
 **Training**
 
@@ -25,15 +23,50 @@ The new bert will be updating soon
 
 **Attention**
 
-I use a program I that designed(Accessing Mirror Sites with Crawlers) to enter a fake chatgpt to achive call LLM
+We use a program I that designed(Accessing Mirror Sites with Crawlers) to enter a fake chatgpt to achive call LLM
 
 **Validation**
 
-In image caption, we use clip to compute a similarity between image and word to control the keyword generating
+In image caption, we use clip to compute a similarity between image and word to control the keyword generating.
+
+## Examples in Twitter
+# self-media-generation
+
+## Dependencies
+* python 3.8
+* pytorch 2.01
+* opencv-python 4.8.0.76
+* spack 3.6.1
+
+## Workflow 
+
+**How to run:** 
+1. Select 4 or 9 portrait photos you like.
+2. Run the Main.py
+3. You will get the processed photo like the third photo in the workflow and the vivid text with emoji😀.
+4. Feel free to upload the content to Twitter or any social media platform.
+![workflow2](https://github.com/tiuxuxsh76075/We_media_generation/assets/131826080/3e97ac32-aef5-47a5-9684-899932b1a53a)
+
+**Training**
+
+The new bert will be updating soon
+
+**Attention**
+
+We use a program I that designed(Accessing Mirror Sites with Crawlers) to enter a fake chatgpt to achive call LLM
+
+**Validation**
+
+In image caption, we use clip to compute a similarity between image and word to control the keyword generating.
+
+## Examples in Twitter
+![ex1](https://github.com/tiuxuxsh76075/We_media_generation/assets/131826080/0f2db1df-ec51-485d-be9a-fb8ce386f91b)
 
 
-**Examples**
 
-<img src="grid_image.jpg" width="300px" height="300px"/>
+## Sentiment Analysis and Topic Categorization
+* Sentiment Analysis Net is on ./sentimentAnalysisNet, follow the instruction on the readme in the folder to train the net.
+* Topic Categorization Net is on ./Bert_classification, follow the instruction on the readme in the folder to train the net.
 
-Sentence: we will approve this soon
+
+
