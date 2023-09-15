@@ -16,8 +16,9 @@ Due to some pravicy issues, we can not publish the dataset, but if you are profi
 |...|...|
 
 ## Training
-The training set, validation set and test set were randomly divided according to 80:10:10.
-Before run the train.py, change the line 111 to change the dataset address to yours, you can DIY the number of epoch, learning rate to suit your dataset.
+1. Download the pre-trained bert model and put them on  ./bert-base-cased, the model is available on <https://huggingface.co/bert-base-cased/tree/main> , download the pytorch_model.bin .
+2.The training set, validation set and test set were randomly divided according to 80:10:10.
+3.Before run the train.py, change the line 111 to change the dataset address to yours, you can DIY the number of epoch, learning rate to suit your dataset.
 
 ## Performance
 The accuracy rate of the model on the validation set is 98.5%.
