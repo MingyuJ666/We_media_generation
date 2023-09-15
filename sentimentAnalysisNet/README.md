@@ -5,6 +5,8 @@ Trained On Twitter dataset with sentiment label and mainly use LSTM
 
 Sentiment analysis involves determining the sentiment or emotion expressed in a piece of text. In this project, we use TensorFlow and LSTM to predict the sentiment (positive or negative) of tweets from the Twitter dataset.
 
+![图片1](https://github.com/tiuxuxsh76075/We_media_generation/assets/131826080/8fa14d50-c0ab-48df-84de-0ddd090a3a4e)
+
 ## Dataset
 
 The dataset consists of tweets with sentiment labels. Half of the dataset contains positive sentiments, while the other half contains negative sentiments. The dataset is sourced from [https://tianchi.aliyun.com/dataset/35761].
