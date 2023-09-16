@@ -33,8 +33,8 @@ In image caption, we use clip to compute a similarity between image and word to 
 
 
 ## Sentiment Analysis and Topic Categorization
-* Sentiment Analysis Net is on ./sentimentAnalysisNet, follow the instruction on the readme in the folder to train the net.
-* Topic Categorization Net is on ./Bert_classification, follow the instruction on the readme in the folder to train the net.
+* Sentiment Analysis Net is on ./Sentimenmt Analysis, follow the instruction on the readme in the folder to train the net.
+* Topic Categorization Net is on ./topic-categorization, follow the instruction on the readme in the folder to train the net.
 
 
 
